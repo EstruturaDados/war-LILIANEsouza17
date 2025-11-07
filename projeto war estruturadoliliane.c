@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <string.h>
 // Criando a quantidade de territorios
 #define TAM 5
