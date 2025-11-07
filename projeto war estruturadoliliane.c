@@ -48,13 +48,13 @@ printf("========================================================================
      for (i = 0; i < TAM; i++) {
         printf("TERRITÓRIO %d:\n", i+ 1);
         printf(" Nome: %s\n", tabuleiro[i].nome);
-        printf("  COR DO EXÉRCITO; %s\n", tabuleiro[i].cor);
+        printf("  COR DO EXÉRCITO: %s\n", tabuleiro[i].cor);
         printf("  TROPAS: %d\n", tabuleiro[i].tropas);
 
         printf("------------------------------------------------------------------------------\n");
      }
-      printf("TERRITÓRIOS CADASTRADOS COM SUCESSO!\n");
+      printf("                   TERRITÓRIOS CADASTRADOS COM SUCESSO!                         \n");
 
-      printf("FIM!\n");
+      printf("                                  FIM!                                          \n");
       return 0;
 }
